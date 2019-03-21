@@ -13,6 +13,12 @@ android {
         multiDexEnabled true
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
+    
+
+      lintOptions {
+          abortOnError false
+      }
+ 
 
     signingConfigs {
         // Use the provided 'fido-example.keystore' for signing so that the example
