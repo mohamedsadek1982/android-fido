@@ -17,11 +17,10 @@
 package com.fido.example.fidoapiexample;
 
 import com.microsoft.appcenter.AppCenter;
+import com.microsoft.appcenter.push.Push;
 import com.microsoft.appcenter.analytics.Analytics;
 import com.microsoft.appcenter.crashes.Crashes;
-import com.microsoft.appcenter.AppCenter; 
-import com.microsoft.appcenter.analytics.Analytics; 
-import com.microsoft.appcenter.crashes.Crashes;
+
 import android.Manifest;
 import android.content.Context;
 import android.content.Intent;
