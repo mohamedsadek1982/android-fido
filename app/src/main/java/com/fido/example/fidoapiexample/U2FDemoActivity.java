@@ -124,7 +124,8 @@ public class U2FDemoActivity extends AppCompatActivity
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        AppCenter.start(getApplication(), "5560f9bd-a119-49ae-b2d2-9fb1b04e5c8d", Analytics.class, Crashes.class);    
+        AppCenter.start(getApplication(), "5560f9bd-a119-49ae-b2d2-9fb1b04e5c8d", Analytics.class, Crashes.class);  
+         AppCenter.start(getApplication(), "5560f9bd-a119-49ae-b2d2-9fb1b04e5c8d", Push.class);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_navigation);
 
