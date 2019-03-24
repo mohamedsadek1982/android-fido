@@ -1,5 +1,11 @@
 apply plugin: 'com.android.application'
 
+ dependencies { 
+        def appCenterSdkVersion = '1.11.4' 
+                implementation "com.microsoft.appcenter:appcenter-analytics:${appCenterSdkVersion}" 
+                implementation "com.microsoft.appcenter:appcenter-crashes:${appCenterSdkVersion}" 
+                }
+
 android {
     compileSdkVersion 26
     buildToolsVersion "25.0.3"
@@ -19,11 +25,7 @@ android {
           abortOnError false
       }
  
- dependencies { 
-        def appCenterSdkVersion = '1.11.4' 
-                implementation "com.microsoft.appcenter:appcenter-analytics:${appCenterSdkVersion}" 
-                implementation "com.microsoft.appcenter:appcenter-crashes:${appCenterSdkVersion}" 
-                }
+
 
     signingConfigs {
         // Use the provided 'fido-example.keystore' for signing so that the example
