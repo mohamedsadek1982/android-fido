@@ -4,7 +4,7 @@ apply plugin: 'com.android.application'
         def appCenterSdkVersion = '1.11.4' 
                 compile  "com.microsoft.appcenter:appcenter-analytics:${appCenterSdkVersion}" 
                 compile  "com.microsoft.appcenter:appcenter-crashes:${appCenterSdkVersion}" 
-                compile  "com.microsoft.appcenter:appcenter-push:${appCenterSdkVersion}"
+              
 
                 }
 
